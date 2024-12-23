@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Tabel</title>
+    <style>
+        table {
+            width: 1200px;
+            height: 600px;
+            border-collapse: collapse;
+        }
+        td {
+            bgcolor: #00FFFF;
+            text-align: center;
+        }
+        .header {
+            height: 150px; 
+            text-align: center; 
+            position: relative; 
+        }
+        .header h1 {
+            color: rgb(61, 57, 56); 
+            margin: 0; 
+        }
+        .underline {
+            width: 100%;
+            height: 4px; 
+            background-color: red; 
+            position: absolute; 
+            bottom: 0; 
+            left: 0; 
+        }
+        .body {
+            height: 410px; 
+            vertical-align: top; 
+        }
+        img {
+            max-width: 100%; 
+            height: auto; 
+        }
+        a {
+            color: black; 
+            font-weight: bold;
+            text-decoration: none; 
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td bgcolor="00FFFF"><a href="a.html">PANTAI PANJANG</a></td>
+            <td bgcolor="00FFFF"><a href="b.html">BENTENG MALBOROUGH</a></td>
+            <td bgcolor="00FFFF"><a href="c.html">RUMAH IBU FATMAWATI</a></td>
+            <td bgcolor="00FFFF"><a href="d.html">HUTAN MANGROVE</a></td>
+        </tr>
+        <tr>
+            <td class="header" colspan="4">
+                <h1>RUMAH IBU FATMAWATI</h1>
+                <div class="underline"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="body" colspan="4">
+                <img src="rumah.jpeg">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" height="20">Rumah Fatmawati adalah salah satu tempat bersejarah yang berada di Bengkulu, tepatnya berada di Jalan Fatmawati, Kelurahan Penurunan, Kecamatan Ratu Samban.Rumah Fatmawati menerapkan tipologi rumah adat Bumbungan Lima, sehingga arsitektur ini tersusun dengan cara mengekspresikan harmoni dari seluruh aspek rumah adat Bumbungan Lima. Selain penerapan tipologi rumah Bumbunga Lima, rumah Fatmawati mempunyai keunikan ornamen yang mempunyai motif yang berbeda jenisnya.</td>
+        </tr>
+    </table>
+</body>
+</html>
